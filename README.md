@@ -42,10 +42,36 @@ I drew my wireframes from scratch. First, I've done my wireframes in multiple pa
 
 **My First Wireframes**
 ![IMG_4673](https://user-images.githubusercontent.com/113093370/211264968-1209924e-59c4-4623-8186-c6b7db03960d.jpeg)
-
+*Initial plan was to do separate pages*
 ![IMG_4674](https://user-images.githubusercontent.com/113093370/211265013-69e30982-e1f1-4791-b74e-e976ff8e41be.jpeg)
-
+*Portfolio Page (future page)*
 ![IMG_4675](https://user-images.githubusercontent.com/113093370/211265034-895c0202-5caf-4f05-88d1-e653ba86b3a1.jpg)
+*Form Page*
 
-**The Final Wireframe**
 ![IMG_4676](https://user-images.githubusercontent.com/113093370/211265067-d96791a9-320d-462a-b2e6-7d6a1a6aa6ef.jpg)
+**The Final Wireframe**
+
+*Decided to go for a Scrollspy feature went to youtube, w3schools.com and getbootstrap.com to help me complete this navigation feature.*
+
+## Features
+
+## Technologies Used
+
+## Testing 
+# Testing User Stories
+
+# Responsive Testing
+
+# HTML and CSS Validation
+
+# Interesting Bugs or Problems
+
+## Deployment
+
+# Repository Link
+
+# Running Code Locally
+
+## Credits
+# Content
+
