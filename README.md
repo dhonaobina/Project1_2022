@@ -29,6 +29,7 @@ I will use Git and GitHub when making updates on my code and testing each featur
 
 ## User Stories
 
+* As the owner, I want to showcase my potential as a newbie in the developer world.
 * As a visitor, I want to know what is the website for and that I know immediately who owns it and why it was created.
 * As a recruiter, I want to see clean and novice responsive website. Everything is placed accordingly and easy to navigate information required for a personal portfolio. Especially the skills that can be offered and contact details when I am ready to hire the personal that owns the portfolio.
 * As a non-IT background vistor, I want to see simple and easy to understand and ensuring that it was a pleased to visit a personal portfolio.
@@ -37,11 +38,14 @@ I will use Git and GitHub when making updates on my code and testing each featur
 
 ## Wireframes
 
+I drew my wireframes from scratch. First, I've done my wireframes in multiple pages but since I am new and want to keep it simple I decided to do scrollspy. I initially coded it separately easier to understand and then along the way. I added sections for each page and put them all together.
 
+**My First Wireframes**
+![IMG_4673](https://user-images.githubusercontent.com/113093370/211264968-1209924e-59c4-4623-8186-c6b7db03960d.jpeg)
 
+![IMG_4674](https://user-images.githubusercontent.com/113093370/211265013-69e30982-e1f1-4791-b74e-e976ff8e41be.jpeg)
 
+![IMG_4675](https://user-images.githubusercontent.com/113093370/211265034-895c0202-5caf-4f05-88d1-e653ba86b3a1.jpg)
 
-
-
-
-
+**The Final Wireframe**
+![IMG_4676](https://user-images.githubusercontent.com/113093370/211265067-d96791a9-320d-462a-b2e6-7d6a1a6aa6ef.jpg)
