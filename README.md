@@ -90,7 +90,8 @@ I drew my wireframes from scratch. First, I've done my wireframes in multiple pa
 - Icon too white and too small 
 - Image had issue with having white background and supposed to be transparent to blend in to my header
 
-## Deployment (instruction from my Online School [Learning People Australia](https://www.learningpeople.com/au/))
+## Deployment
+### Instructions provided by my Online School [Learning People Australia](https://www.learningpeople.com/au/)
 - Open your project repository on Github, Go to the ‘Settings’ tab.
 - Scroll down to ‘GitHub Pages’
 - Under ‘Source’, click on the ‘None’ dropdown and choose ‘Master’
