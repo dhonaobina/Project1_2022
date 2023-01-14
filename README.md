@@ -110,6 +110,6 @@ https://github.com/dhonaobina/Project1_2022
 - To my workmates and bosses, for approving my annual leave when I have projects to finish.
 - To my current school (Learning People), my mentors, student advisers and career consultants. Shoutout to Scott Nnaghor for listening to my senseless questions and struggles. I cannot Thank you enough to the support.
 - Lastly, To my husband, always supports me and always by my side in my ups and downs. Encourages me to be a better person throughout my journey. 
-- TO YOU who is reading and has visited my GitHub! Thank you for your time and don't forget to hit the "Star" Button and share the love to newbies like me :) If you're a newbie too let's connect. I want to have a developer friend. 
+- TO YOU who is reading and has visited my GitHub! Thank you for your time and don't forget to hit the "Star" Button and share the love to newbies like me :) If you're a newbie too, let's connect. I want to have a developer friend :).
 
 
