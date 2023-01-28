@@ -138,37 +138,38 @@
     <div class="container-fluid col-sm-12 col-md-12 py-md-5 px-md-4 text-dark text-center" style="background-color: #0e172c">
     <div class="border border-light rounded-3 py-3 px-3 mt-5 " style="background-color: #d9d4e7">
     <h1 class="display-3">Hire Me!</h1>
-    <form 
-    action="https://formspree.io/f/mdovaedw"
-    method="Post"
-    >
+
+<form id="my-form" action="https://formspree.io/f/mdovaedw" method="POST">
+
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" name="fname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" name="lname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default">Company</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <input type="text" name="company" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         <div id="emailHelp" class="form-text">I will never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <div class="mb-3">
-    <button type="submit" class="btn btn-secondary" onclick="window.alert('Sent')">Submit</button>
-    
+    <button id="my-form-button" type="submit" class="btn btn-secondary">Submit</button>
     </div>
+    <p id="my-form-status"></p>
     </div> 
     <br>
+    </div>
+</form>
     <figure class="text-end">
         <blockquote class="blockquote text-light">
           <p>"I can accept failure, everyone fails at something, But I can't accept not trying."</p>
@@ -176,10 +177,7 @@
         <figcaption class="blockquote-footer">
           Michael Jordan <cite title="Source Title">on the Pursuit of Excellence</cite>
         </figcaption>
-    </figure> 
-    </div>
-</div>
-</form>
+    </figure>  
 </section>
 <!-- Footer-->
 <footer style="background-color:#d9d4e7">
@@ -225,5 +223,37 @@
     <div class="container"><small>Copyright &copy; GlimpseIT || Dhona Obina 2023</small></div>
   </div>
 </footer>
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 </body>
 </html>
