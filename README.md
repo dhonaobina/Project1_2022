@@ -21,7 +21,7 @@ Finally, I have chosen 2 vibrant colors and 2 neutral colors.
   - Although they are neutral colors, they are best compliments to any colors. Some says its an easy pick but for me, Less is more. Its expresses my professionalism through my works and subsequents projects.
 
 ### For my framework, I mainly used [Bootstrap v5](https://www.getbootstrap.info/) and also used CSS for styling some of the elements. 
-I am well aware that I still have more to learn, especially with best practices especially with grid and flex. And I would love to be in a team that would help me grow. Added my photo in the center, to show my willingness to learn and positivity. Also, my the percentage of knowledge of languages I learned during my studies.
+I have a passion for web development and I enjoy creating responsive and user-friendly websites. I have learned the basics of HTML, CSS, JavaScript and other languages during my studies, but I know that there is always room for improvement. I am eager to learn from experienced developers and follow the best practices for grid and flex layouts. I have attached my photo in the center of this page to demonstrate my positive attitude and willingness to learn.
 
 ### If I would do this project again:
 - I want my styling files to be consolidated into css file 
