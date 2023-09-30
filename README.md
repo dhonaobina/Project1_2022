@@ -1,12 +1,10 @@
 # My Personal Portfolio | Project1_2022
 
-I created this portfolio to showcase that I have knowledge in frontend development languages to begin my journey as a developer.
-Although, I don't have an actual experience yet, I'm can offer this portfolio that I am able to produce responsive website and well designed portfolio.
+This portfolio is a demonstration of my skills in frontend development languages, which I have learned to start my career as a developer. I have not yet gained any professional experience, but I have created this portfolio to show that I can design and code responsive websites.
 
-I choose to have a 1 pager website that uses scrollspy feature to navigate through Home, About and Contact. I will add an additional page for my future projects. At the moment, I am taking it slowly but surely.
+My website is a single-page application that uses the scrollspy feature to navigate between the Home, About and Contact sections. I plan to add another page for my future projects soon. I am taking a gradual and steady approach to learning and improving.
 
-I intent for this website to get a glimpse of who I am, my skills and how they are able to contact me.
-Visitors can use my website to get an idea on how they are able to start with their portfolio and begin their journey as a front end developer too.
+The purpose of this website is to introduce myself, my skills and my contact information to potential employers or clients. Visitors can also use my website as an inspiration for their own portfolios and their journeys as frontend developers.
 
 ## UX
 
