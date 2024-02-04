@@ -2,6 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.animate {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .animate {
+        transition: none;
+    }
+}
+
+header {
+    height: 500px;
+}
+
 .fa ,.fa-star {
     padding: 20px;
     font-size: 30px;
