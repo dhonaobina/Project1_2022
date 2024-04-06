@@ -54,3 +54,12 @@ img {
     padding-left:30px;
     padding-right:30px;
 }
+
+#proj-link {
+    text-decoration: none;
+    color: #0e172c;
+}
+
+.card {
+    text-align: center;
+}
