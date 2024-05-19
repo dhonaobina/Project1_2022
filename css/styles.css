@@ -54,15 +54,14 @@ img {
     padding-left:30px;
     padding-right:30px;
 }
-<<<<<<< HEAD
-=======
-
-#proj-link {
-    text-decoration: none;
-    color: #0e172c;
-}
 
 .card {
-    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
->>>>>>> 0ff5e7d1a23c1d01519727c952a484f3e28ebcaf
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}

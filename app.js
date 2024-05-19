@@ -1,14 +1,12 @@
-const animateElements = document.querySelectorAll('.animate');
-
-const observer = new IntersectionObserver(entries) = {
-    entries.forEach(entry => {
-        console.log(entry)
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
-        }      
-    })
-};
-
-animateElements.forEach((el) => observer.observe(el));
+window.addEventListener('scroll', () => {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      const cardTop = card.getBoundingClientRect().top;
+      const cardHeight = card.offsetHeight;
+      if (cardTop < window.innerHeight - cardHeight / 3) {
+        card.classList.add('show');
+      } else {
+        card.classList.remove('show');
+      }
+    });
+  });
